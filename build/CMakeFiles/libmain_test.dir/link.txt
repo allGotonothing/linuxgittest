@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/libmain_test.dir/src/libtest_main.cpp.o  -o ../bin/libmain_test -Wl,-rpath,/home/rizo/cmake_test/lib ../lib/libmyfunc.so 

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/myadd1.h
+
+../inc/myadd2.h
+
+../inc/myadd3.h
+
+/home/rizo/cmake_test/src1/myadd1.cpp
+iostream
+-
+myadd1.h
+/home/rizo/cmake_test/src1/myadd1.h
+
+/home/rizo/cmake_test/src1/myadd2.cpp
+iostream
+-
+myadd2.h
+/home/rizo/cmake_test/src1/myadd2.h
+
+/home/rizo/cmake_test/src1/myadd3.cpp
+iostream
+-
+myadd3.h
+/home/rizo/cmake_test/src1/myadd3.h
+
